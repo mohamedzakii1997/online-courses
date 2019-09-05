@@ -1,0 +1,560 @@
+body{
+    font-family: sans-serif, serif
+}
+.section,section.testimonials{
+    padding: 40px 0
+}
+.section p{
+    color: #808080
+}
+.section h2,.testimonials h2{
+    margin-bottom: 40px;
+    font-style: italic;
+    font-size: 40px
+}
+.section i:hover{
+    color: #3498db
+}
+ button {
+    cursor: pointer;
+    font-weight: bold !important
+}
+/*======================================= login page ======================================*/
+ .loginbody{
+    background-image:url("../images/school.jpg ");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.login-container{
+        background-color: rgba(236, 240, 241,0.9);
+        padding:20px;
+        width: 50%;
+        border-radius: 50px
+}
+.login-container .badge{
+    font-weight: bold;
+    font-size:26px;
+    background-color:#3498db; 
+    line-height: unset;
+    cursor: pointer
+
+}
+.login-container .disableRegister{
+    text-decoration:line-through;
+}
+.login-container hr{
+    border: 1px solid #3498db;
+}
+.login-container  label{
+    color:#3498db ;
+   font-style:italic;
+   font-size: 18px
+}
+.login-container #loginform label{
+    font-size: 20px
+}
+.login-container input {
+    border-radius: 20px
+}
+
+
+.login-container button[type="submit"]{
+    padding: 13px 20px ;
+    background-color:  #3498db;
+    font-weight: bold;
+    cursor:pointer;
+}
+.login-container #signupform button[type="submit"]{
+    padding: 10px 14px ;
+    background-color:  #3498db;
+    font-weight: bold;
+    cursor:pointer;
+}
+#signupform{
+    display: none
+}
+#signupform .invalid-feedback{
+    display: none
+}
+#signupform input{
+    height: 27px
+}
+#signupform label{
+    font-size: 14px;
+    font-weight: bold
+}
+
+.login-container  .alert{
+    margin: 5px 0
+}
+
+/*============================================== dashboard ==============================================*/
+.dashNav{
+    margin-bottom: 10px
+}
+@media (min-width: 992px){
+.dashNav .navbar-collapse ul {
+    width:100%;
+    position: relative;
+    border-left: 1px solid #444
+ }
+ .dashNav .navbar-collapse .profile,.dashNav .navbar-collapse .login{
+    position: absolute;
+    right: 10px
+ }
+ 
+ .profile .dropdown-menu{
+    right: 0px;
+    left:unset;
+ }
+ .dashNav .navbar-collapse .nav-item:hover{
+    background-color: #3498db;
+    border-radius: 10px;
+    padding:0 7px ;
+    font-weight: bold
+    
+}
+                         }
+
+.dashNav .navbar-collapse .nav-item:hover .nav-link{
+    color: #fff
+}
+.dashNav .navbar-dark .navbar-brand:hover{
+color: #3498db
+}
+.dashNav .dropdown-menu .dropdown-item:hover{
+background-color: #3498db;
+color: #fff
+}
+.total{
+    color: #fff;
+    border-radius:10px;
+    margin-bottom:20px
+}
+.total span{
+    font-size: 120px;
+    font-weight: bold;
+
+}
+.total p{
+    font-style:italic;
+}
+.dashboardContainer h2{
+    font-size:25px;
+    margin: 20px 0;
+    font-style: italic;
+    color:#7f8c8d;
+    font-weight: bold
+}
+.countNews{
+    background-color: #2980b9
+}
+.countClient{
+    background-color: #27ae60
+}
+.countInstructor{
+    background-color: #d35400
+}
+.countSupervisor{
+    background-color: #c0392b
+}
+.countBook{
+    background-color: #8e44ad
+}
+.countCourse{
+    background-color: #f39c12
+}
+button.showCollapse{
+    border-left: 1px solid #aaa;
+}
+.dashbtngroup{
+    margin: 40px 0
+}
+.buttonGroups button.active{
+    border: 2px solid #000
+}
+#chart_div,#chart_div2,#chart_div3{
+    height: 400px
+}
+#chart_div2{
+    width: 70%
+}
+#chart_div{
+    width: 30%
+}
+#chart_div3{
+    width: 100%;
+}
+
+
+/*======================================================= Home page =====================================================================*/
+
+/*==================== Start Header ==============================*/
+.carousel-inner img{
+    height: 600px
+}
+.carousel-indicators{
+    cursor: pointer
+}
+.slide-overlay{
+    position:absolute;
+    background-color: rgba(41, 128, 185,0.4);
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.slidehome a {
+    color: #fff;
+}
+.slidehome a:hover{
+    text-decoration: underline;
+}
+/*======================== Start Features ===================================*/
+
+.section .feature h3{
+    color: #3498db;
+    font-size: 25px;
+    margin: 20px 0
+}
+/*========================= Start Life ==================================*/
+section.life {
+    background: url("../images/students.jpg") center center no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+
+}
+section.life .life-overlay{
+    padding:50px 0 50px;
+    background-color: rgba(0,0,0,0.5)
+}
+section.life .life-overlay  p{
+    font-style: italic;
+    font-size: 25px
+
+}
+section.life .life-overlay h3{
+    font-size: 200%;
+    margin: 50px 0
+}
+section.life .life-overlay button{
+    padding-left:30px;
+    padding-right: 30px
+}
+/*===================== Start popular Courses ====================*/
+section.home-courses, section.testimonials{
+    background-color:#f7f6f2
+}
+section.home-courses .card{
+    margin-bottom: 20px
+}
+section.home-courses .card:hover .slide-overlay{
+    display: flex
+}
+section.home-courses .card .slide-overlay{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    font-style: italic;
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+.card .card-img-top{
+    height: 200px
+}
+section.home-courses a.viewAllCourses{
+    width: 170px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 30px auto
+}
+/*================== Start Statistics ============================*/
+.section .statistic .statistic-num{
+    color: #3498db;
+    font-size:54px
+}
+/*==================== Start Testimonials ====================*/
+.testimonials .carousel-inner{
+    min-height: 200px
+}
+.testimonials .container >p{
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 50px;
+    color: #3498db
+}
+.testimonials .carousel-inner span{
+    color: #3498db;
+}
+.testimonials .carousel-inner p{
+    color: #2c3e50;
+    margin-bottom:40px;
+    font-weight: bold
+}
+.testimonials .carousel-indicators {
+    position: static;
+}
+.testimonials .carousel-indicators li {
+background-color: #3498db
+}
+.testimonials .carousel-indicators li.active{
+    background-color: #2980b9
+}
+/*===================== Start Footer ======================*/
+footer{
+    background-color: #353535;
+     padding-top: 30px
+}
+footer p,footer .description1 i{
+    color: #5F5F5F
+}
+footer p{
+    font-size:12px;
+}
+footer .container >p{
+    margin: 30px 0 0
+}
+
+footer h3{
+    color: #fff;
+}
+footer  .description1 i:hover{
+    color:#fff;
+    cursor: pointer
+}
+#top{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:rgba(41, 128, 185,0.4); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+#top:hover {
+    background-color:#3498db; /* Add a dark-grey background on hover */
+}
+/*===================================================== global admin=====================================================*/
+
+th{
+    text-align: center
+}
+.editform{
+    margin: 10px 0 10px
+}
+.editform label{
+    font-weight: bold;
+    font-style: italic
+}
+.addnew{
+    display: inline-block;
+    margin-left: 1%
+}
+textarea{
+    display: block
+}
+.input-group-addon{
+    background-color: #3498db;
+    color: #fff
+}
+.imgContainer{
+    width: 200px;
+    height: 250px;
+    border: 3px solid #ddd
+}
+.courseimgContainer{
+    width: 350px;
+    height: 200px;
+    border: 2px solid #3498db;
+}
+.courseimgContainer .imgProfile{
+    width: 100%;
+    height: 100%
+}
+.imgContainer .imgProfile{
+    width: 100%;
+    height: 100%;
+}
+.uploadImage{
+    width: 200px;
+    height: 30px;
+    font-size: 13px
+}
+.totalrev{
+    font-weight: bold;
+    font-size: 20px
+}
+.totalrev span{
+    color: #2980b9;
+    font-style: italic;
+    font-size:30px; 
+}
+.rowsearch{
+    margin-bottom: 10px
+}
+span.defintion{
+    color:#3498db;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px
+}
+.courseinfo{
+    margin-left: 30px
+}
+.courseCategory{
+    display: inline-block;
+    background-color: #2980b9;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.coursep{
+    color: #7f8c8d;
+    margin-bottom: 0px
+}
+.courseHours{
+    width: 350px;
+    color: #2980b9;
+    font-size: 25px
+}
+.courseHeader{
+    margin:50px 0 10px;
+    color: #34495e;
+    font-style: italic ;
+    position: relative;   
+}
+.courseHeader:after{
+    content: '';
+    position:absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 60px;
+    border-bottom:2px solid #2980b9;
+}
+.courseDescription{
+    color:#7f8c8d;
+    margin-left:20px;
+}
+.registerCourse{
+    margin-bottom: 20px
+}
+.fewWords{
+    font-size: 26px !important
+}
+.fewImgContainer img{
+    width: 100%;
+    height: 100%
+}
+footer .description textarea{
+    background-color: #1e1e1e;
+    border: none;
+    width: 100%;
+    height: 150px;
+    color: #fff
+}
+.sendContact{
+    height: 32px;
+    background-color: #212121;
+    margin-top: 15px;
+    font-size: 13px;
+    border: none;
+    color: #fff 
+}
+.sendContact:hover{
+    background-color: #0c0c0c
+}
+.coursesLists{
+    list-style:none;
+    margin-bottom: 40px
+}
+.coursesLists li{
+    display: inline;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #2980b9;
+    color: #7f8c8d;
+    cursor: pointer;
+    border-radius: 3px
+}
+.coursesLists .active{
+    background-color: #2980b9;
+    color: #fff
+}
+.card .insCardImg{
+    height: 290px;
+}
+.insimgContainer{
+    width: 250px;
+    height: 350px;
+    border: 2px solid #3498db
+}
+.insimgContainer img{
+    width: 100%;
+    height: 100%
+}
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    padding: 20px
+}
+
+.star-rating input[type=radio] {
+    display: none
+}
+
+.star-rating label {
+    color: #bbb;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type=radio]:checked ~ label {
+    color: #f2b600
+}
+.forgot{
+    font-weight: bold;
+    color: #3498db;
+    font-size: 20px
+}
+/*============span for notification =============*/
+.button__badge {
+  border-radius: 10px;
+padding: .1em .5em .2em;
+    font-size: 70%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+vertical-align: top;
+ background-color: #fa3e3e;
+ }
+ .notificNav{
+    position: absolute;
+    right: 120px;
+ }
+ .notificNav:hover{
+    border-radius: unset !important;
+    padding:unset !important;
+    background-color:unset !important;
+ }
+ .sahm:after{
+    display: none
+ }
